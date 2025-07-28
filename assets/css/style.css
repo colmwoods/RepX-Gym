@@ -172,3 +172,16 @@ a {
     background-color: #f8f9fa;
     height: auto;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
