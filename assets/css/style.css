@@ -196,3 +196,25 @@ footer {
     margin: 0 auto;
     color: #ffffff;
 }
+
+#equipment {
+    padding: 35px 15px;
+    width: 100%;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.equipment-card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 100%;
+}
+
+#equipment-body {
+    color: #020381
+}
