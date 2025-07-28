@@ -185,3 +185,14 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.terms-section {
+    padding: 20px 25px;
+    background-color: #020381;
+}
+
+#terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+}
