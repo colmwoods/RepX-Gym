@@ -36,3 +36,51 @@
 .nav-link:hover::after {
     width: 100%;
 }
+
+.hero-section {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.hero-video,
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.img-fluid.mb-4 {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+
+.video-overlay {
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+
+.hero-video {
+    z-index: 0;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
+    color: #000000;
+    padding-top: 80px;
+    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+    font-weight: 700;
+}
