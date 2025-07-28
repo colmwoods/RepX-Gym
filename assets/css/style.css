@@ -118,3 +118,48 @@
     position: relative;
     z-index: 2;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.membership-section .row {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero-section,
+.about-section,
+#membership {
+    padding: 20px 25px;
+}
+
+#membership {
+    background-color: #020381;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.membership-text {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+#membership .card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#membership .card-footer {
+    background-color: transparent;
+}
+
+#membership .card-title,
+#membership .card-text {
+    color: #000;
+}
