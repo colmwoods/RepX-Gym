@@ -259,7 +259,7 @@ footer {
 /* Small phones */
 @media (min-width: 321px) and (max-width: 375px) {
     .about-section {
-        height: 2800px;
+        height: 2700px;
     }
 }
 
