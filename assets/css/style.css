@@ -223,7 +223,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Make the About Us cards behave like Membership ones */
 #about-us-cards .card {
     background-color: #ffffff;
     border: none;
@@ -231,21 +230,17 @@ footer {
     display: flex;
     flex-direction: column;
     height: 100%;
-    /* ✅ same height for all cards */
     color: #000000;
     text-align: center;
     padding: 15px;
 }
 
-/* Keep row cards aligned evenly */
 #about-us-cards .row {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    /* ✅ makes all cards the same height */
 }
 
-/* Team images stay circular + uniform */
 #about-us-cards .card img {
     width: 150px;
     height: 150px;
@@ -254,32 +249,37 @@ footer {
     margin: 15px auto;
 }
 
-@media (max-width: 768px) {
-    .about-section {
-        height: 1500px
-    }
-}
-
-@media (max-width: 1024px) {
-    .about-section {
-        height: 1200px
-    }
-}
-
-@media (max-width: 425px) {
-    .about-section {
-        height: 2500px
-    }
-}
-
-@media (max-width: 375px) {
-    .about-section {
-        height: 2800px
-    }
-}
-
+/* Extra small phones */
 @media (max-width: 320px) {
     .about-section {
-        height: 3000px
+        height: 3000px;
+    }
+}
+
+/* Small phones */
+@media (min-width: 321px) and (max-width: 375px) {
+    .about-section {
+        height: 2800px;
+    }
+}
+
+/* Large phones */
+@media (min-width: 376px) and (max-width: 425px) {
+    .about-section {
+        height: 2500px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 426px) and (max-width: 768px) {
+    .about-section {
+        height: 1500px;
+    }
+}
+
+/* Small laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .about-section {
+        height: 1200px;
     }
 }
