@@ -247,6 +247,16 @@ footer {
     color: #020381;
 }
 
+/* ---------------- Sucess Section ---------------- */
 .sucess-section {
     padding-bottom: 40px;
+}
+
+main {
+    flex: 1;
+    /* pushes footer to bottom */
+}
+
+footer {
+    background-color: #1d1f21;
 }
