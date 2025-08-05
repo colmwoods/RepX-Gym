@@ -215,6 +215,17 @@ footer {
     padding: 20px 0;
 }
 
+@media (max-width: 768px) {
+    #contact .contact-card {
+        height: auto !important;
+        width: 100%;
+    }
+
+    #contact .card-body {
+        padding: 1.5rem !important;
+    }
+}
+
 /* ---------------- Footer ---------------- */
 html,
 body {
