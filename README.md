@@ -32,62 +32,22 @@ The strategy was to create an **easy-to-navigate, visually engaging gym website*
 ### Returning Users  
 - As a member, I want to confirm gym opening times.  
 - As a member, I want to revisit equipment information to guide my workouts.  
-- As a member, I want to stay updated via the contact form/newsletter.  
+- As a member, I want to stay updated about the gyms history on social media
 
-## Wireframes
+## Wireframes  
 
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+Screens were designed responsively for **mobile, tablet, and desktop**.  
 
-### Mobile Wireframes
+### Mobile View  
+![Mobile nav](assets/images/readme-screenshots/mobile-nav.jpg)  
 
-<details>
-<summary> Click here to see the Mobile Wireframes </summary>
+### Tablet View  
+![Tablet success](assets/images/readme-screenshots/tablet-sucess.jpg)  
 
-Home
-  - ![screenshot](documentation/wireframes/index-mobile.png)
+### Desktop View  
+![Memberships](assets/images/readme-screenshots/membership-desktop.jpg)  
 
-Upcoming Events
-  - ![screenshot](documentation/wireframes/upcoming-mobile.png)
-
-Newsletter
-  - ![screenshot](documentation/wireframes/newsletter-mobile.png)
-
-
-</details>
-
-### Tablet Wireframes
-
-<details>
-<summary> Click here to see the Tablet Wireframes </summary>
-
-Home
-  - ![screenshot](documentation/wireframes/index-tablet.png)
-
-Upcoming Events
-  - ![screenshot](documentation/wireframes/upcoming-tablet.png)
-
-Newsletter
-  - ![screenshot](documentation/wireframes/newsletter-tablet.png)
-
-</details>
-
-### Desktop Wireframes
-
-<details>
-<summary> Click here to see the Desktop Wireframes </summary>
-
-Home
-  - ![screenshot](documentation/wireframes/index-desktop.png)
-
-Upcoming Events
-  - ![screenshot](documentation/wireframes/upcoming-desktop.png)
-
-Newsletter
-  - ![screenshot](documentation/wireframes/newsletter-desktop.png)
-
-</details>
-
+---
 ## Features
 - ### Title & Hero Image
   - The title for the homepage floats above the hero image and scrolls with the page. The image used is a classic boardgame which is eyecatching and instantly recognisable. When the upcoming page is being viewed on tablet size and above, the title remains in place while the content scrolls next to it.

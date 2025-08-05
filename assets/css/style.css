@@ -260,3 +260,16 @@ main {
 footer {
     background-color: #1d1f21;
 }
+
+/* ---------------- Page Wrapper ---------------- */
+
+.page-wrapper {
+    min-height: 500px;
+    flex-direction: column;
+}
+
+.success-section {
+    flex-grow: 1;
+    text-align: center;
+    padding: 5px 5px;
+}
