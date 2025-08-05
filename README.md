@@ -1,12 +1,8 @@
 # Board Game & Film Club
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/apeskinian/p1_bgfc)](https://github.com/apeskinian/p1_bgfc/commits/main)
-[![GitHub last commit](https://img.shields.io/github/last-commit/apeskinian/p1_bgfc)](https://github.com/apeskinian/p1_bgfc/commits/main)
-[![GitHub repo size](https://img.shields.io/github/repo-size/apeskinian/p1_bgfc)](https://github.com/apeskinian/p1_bgfc)
+RepX Gym is a modern, responsive fitness website designed to showcase membership options, gym equipment, contact information, and opening hours. It provides a clean, professional user experience that makes it easy for potential members to learn about the gym and join.  
 
-Board Game & Film Club is a site to inform people about their local club in Maidstone where they can come and play games and watch films. It is targeted at both current members and potential new members who want a bit of classic fun and to make new friends. It will be useful to current and new members as it lists event details for future meets and also gives the opportunity to sign up to a newsletter via email. 
-
-![BGFC Mockups](documentation/mockup/bgfc-mockup.png)
+![Mockups](assets/images/readme%20screenshots/mock-up.jpg)
 
 Source: [Techsini Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/?url=https://apeskinian.github.io/p1_bgfc/)
 
