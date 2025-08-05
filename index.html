@@ -252,60 +252,76 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact">
-            <h2 class="text-center">Contact Us</h2>
-            <form class="row g-3" action="sucess.html" method="GET">
+        <section id="contact" class="d-flex align-items-center">
+            <div class="container-fluid h-100">
+                <div class="row justify-content-center h-100">
+                    <div class="col-lg-8 h-100">
+                        <div class="card shadow-lg border-0 h-100">
+                            <div class="card-body d-flex flex-column justify-content-center p-5">
 
-                <!-- First Name -->
-                <div class="col-md-6">
-                    <label for="validationDefault01" class="form-label">First name</label>
-                    <input type="text" class="form-control" id="validationDefault01" required>
-                </div>
+                                <h2 class="text-center mb-4">Contact Us</h2>
 
-                <!-- Last Name -->
-                <div class="col-md-6">
-                    <label for="validationDefault02" class="form-label">Last name</label>
-                    <input type="text" class="form-control" id="validationDefault02" required>
-                </div>
+                                <form class="row g-4" action="success.html" method="GET">
 
-                <!-- Email -->
-                <div class="col-md-6">
-                    <label for="validationDefault03" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="validationDefault03" required>
-                </div>
+                                    <!-- First Name -->
+                                    <div class="col-12">
+                                        <label for="firstName" class="form-label">First name</label>
+                                        <input type="text" class="form-control form-control-lg" id="firstName" required>
+                                    </div>
 
-                <!-- Membership Type-->
-                <div class="col-md-3">
-                    <label for="validationDefault04" class="form-label">Membership Type</label>
-                    <select class="form-select" id="validationDefault04" required>
-                        <option selected disabled value="">Choose...</option>
-                        <option>Monthly</option>
-                        <option>3-Months</option>
-                        <option>Annual</option>
-                    </select>
-                </div>
+                                    <!-- Last Name -->
+                                    <div class="col-12">
+                                        <label for="lastName" class="form-label">Last name</label>
+                                        <input type="text" class="form-control form-control-lg" id="lastName" required>
+                                    </div>
 
-                <!-- Eircode -->
-                <div class="col-md-3">
-                    <label for="validationDefault05" class="form-label">Eircode</label>
-                    <input type="text" class="form-control" id="validationDefault05" required>
-                </div>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                        <label class="form-check-label" for="invalidCheck2">
-                            <ins><a href="terms.html" title="Our Terms And Conditions" target="_blank">Agree to terms
-                                    and
-                                    conditions</a></ins>
-                        </label>
+                                    <!-- Email -->
+                                    <div class="col-12">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control form-control-lg" id="email" required>
+                                    </div>
+
+                                    <!-- Membership Type -->
+                                    <div class="col-12">
+                                        <label for="membershipType" class="form-label">Membership Type</label>
+                                        <select class="form-select form-select-lg" id="membershipType" required>
+                                            <option selected disabled value="">Choose...</option>
+                                            <option>Monthly</option>
+                                            <option>3-Months</option>
+                                            <option>Annual</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Eircode -->
+                                    <div class="col-12">
+                                        <label for="eircode" class="form-label">Eircode</label>
+                                        <input type="text" class="form-control form-control-lg" id="eircode" required>
+                                    </div>
+
+                                    <!-- Terms -->
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="terms" required>
+                                            <label class="form-check-label" for="terms">
+                                                <a href="terms.html" target="_blank">Agree to terms and conditions</a>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit Button -->
+                                    <div class="col-12">
+                                        <button class="btn btn-primary btn-lg w-100" type="submit">Submit form</button>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 button-wrapper-2">
-                    <button class="btn btn-primary" type="submit">Submit form</button>
-                </div>
-
-            </form>
+            </div>
         </section>
+
     </main>
 
     <!-- Footer Section -->
