@@ -2,62 +2,37 @@
 
 RepX Gym is a modern, responsive fitness website designed to showcase membership options, gym equipment, contact information, and opening hours. It provides a clean, professional user experience that makes it easy for potential members to learn about the gym and join.  
 
-![Mockups](assets/images/readme%20screenshots/mock-up.jpg)
+![Mockups](assets/images/readme-screenshots/mock-up.jpg)
 
 Source: [Techsini Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/?url=https://apeskinian.github.io/p1_bgfc/)
 
 ## UX
 
-The strategy was to create an easy to navigate website that introduced potential new members to the club and also gave existing members useful information about the club.
+The strategy was to create an **easy-to-navigate, visually engaging gym website**. It should:  
 
-The scope of features I wanted to include were:
-- Information on what the club is and what it's about (targeted at potential new members)
-- Location of the club (targeted at potential new members)
-- Dates of future events including what is happening on each date (for both existing and new members)
-- A signup page for a newsletter for the club (for both existing and new members)
-
-When looking at the site structure I decided all the information solely targeted for potential new members need to be on the homepage. This way there should be enough information about the club for them to decide if they would be interested. Information on the upcoming events on it's own page for two reasons:
-- Progressive disclosure for potential new members
-- Existing members can just bookmark this page rather than having to scroll past content they don't need.
-
-The newsletter form would be on it's on page as well.
-
-While wireframing the site I decided to have the navbar at the bottom with a burger menu style for the smaller devices such as phones and tablets. This will make navigation easier when they are being browsed one handed. On larger devices the navbar moves back to the top. The images for the site were chosen that matched the content of the site and also were for a game that is very well known.
-
-I then used the chosen hero image to generate the colour scheme for the site so that everything looked good together.
+- Attract new members with clear membership plans.  
+- Showcase available gym equipment to inspire confidence and know what they expect .  
+- Provide practical info (location, opening hours, contact details).  
+- Allow users to submit forms with their membership plans. 
 
 ### Colour Scheme
 
-- `#3a3a3a` Used for main home page text.
-- `#f5f5f5` Used for header and rest of site primary text.
-- `#3b4d66` Used as background for navbars and info boxes.
-- `#f2eace` Used as background for footer.
-- `#3b4d66` Used for social network icons and pop up navbar text.
-
-I used [Colormind](http://colormind.io/) to generate my colour palette from the hero image.
-
-![screenshot](documentation/screenshots/generated-colours.png)
-
-### Typography
-
-- [Fjalla One](https://fonts.google.com/specimen/Fjalla+One) was used for the primary headers and titles.
-
-- [Cantarell](https://fonts.google.com/specimen/Cantarell) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site for the social media icons in the footer.
+- `#0b089e` – Primary background (hero + membership section)  
+- `#ffffff` – Main text + background for cards  
+- `#000000` – Logo and key typography  
+- Accent: Red (`#ff0000`) for **X** in logo 
 
 ## User Stories
 
-### New Site Users
+### New Users  
+- As a visitor, I want to quickly see membership options, so I can choose a plan.  
+- As a visitor, I want to explore the equipment available, so I know what’s in the gym.  
+- As a visitor, I want to find contact details and opening hours, so I can visit.  
 
-- As a new site user, I would like to learn about what happens at the club, so that I can decide whether I would like to try it.
-- As a new site user, I would like to find out where the club meets, so that I can see if it's local enough for me.
-- As a new site user, I would like to learn when the next meetup is, so that I can see if I can attend that time.
-
-### Returning Site Users
-
-- As a returning site user, I would like to be kept up to date with events, so that I can see what's happening at the next meet.
-- As a returning site user, I would like to know about past events I may have missed, so that I can catch up on what happened and who won the last tournament.
+### Returning Users  
+- As a member, I want to confirm gym opening times.  
+- As a member, I want to revisit equipment information to guide my workouts.  
+- As a member, I want to stay updated via the contact form/newsletter.  
 
 ## Wireframes
 
