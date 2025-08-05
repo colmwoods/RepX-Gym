@@ -122,6 +122,34 @@ The site was deployed to **GitHub Pages**:
 
 ---
 
+
+### Cloning  
+
+You can clone this repository to create a local copy on your computer:  
+
+1. Go to the GitHub repository: [RepX Gym](https://github.com/colmwoods/RepX-Gym)  
+2. Click the **Code** button above the list of files.  
+3. Copy the URL provided (HTTPS recommended).  
+4. Open your terminal and navigate to the directory where you want the project to be saved.  
+5. Run the command:  
+   ```bash
+   git clone https://github.com/colmwoods/RepX-Gym.git
+6. Press Enter – a clone of the repository will now be created locally.
+
+---
+
+
+### Forking
+
+You can fork this repository to make a copy under your own GitHub account, allowing you to freely experiment with changes without affecting the original project.
+
+1. Go to the GitHub repository: [RepX Gym](https://github.com/colmwoods/RepX-Gym)
+2. In the top-right corner, click the Fork button.
+3. A copy of the repository will now exist in your GitHub account.
+
+---
+
+
 ## Credits  
 
 ### Content  
