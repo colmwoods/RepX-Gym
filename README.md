@@ -48,7 +48,46 @@ Screens were designed responsively for **mobile, tablet, and desktop**.
 ![Memberships](assets/images/readme-screenshots/membership-desktop.jpg)  
 
 ---
-## Features
+
+## Features  
+
+### Logo & Branding  
+![Logo](assets/images/readme-screenshots/repx-gym-logo.png)  
+- Strong, bold branding with a red **X** symbolizing strength and power.  
+
+### Membership Options  
+![Memberships](assets/images/readme-screenshots/membership.jpg)  
+- Three tiers: **Monthly (€50)**, **3-Month (€130)**, and **Annual (€360)**.  
+
+### Equipment Showcase  
+![🏋️ Dumbbells](assets/images/readme-screenshots/dumbells.jpg)  
+![🚣 Rowing Machine](assets/images/readme-screenshots/rowing-machine.jpg)  
+![🚴 Bike Machine](assets/images/readme-screenshots/bike-machine.jpg)  
+![🏋️‍♂️ Chest Press Machine](assets/images/readme-screenshots/chest-press-machine.jpg)
+![⛷️ SkiErg Machine](assets/images/readme-screenshots/skierg-machine.jpg)  
+![🛠️ Smith Machine](assets/images/readme-screenshots/smith-machine.jpg)  
+![🦵 Leg Press Machine](assets/images/readme-screenshots/leg-press-machine.jpg)  
+![🏃 Treadmill](assets/images/readme-screenshots/treadmill.jpg)  
+- Responsive cards displaying gym machines with descriptions: Dumbbells, Rowing Machine, Bike, Chest Press, SkiErg, Smith Machine, Leg Press, Treadmill.  
+
+### Contact & Opening Times  
+![Footer](assets/images/readme-screenshots/footer.jpg)  
+- Location, email, phone number, and social links.  
+- Weekly opening hours clearly displayed.  
+
+### Responsive Navigation  
+![Mobile nav](assets/images/readme-screenshots/mobile-nav.jpg)  
+- Collapsible burger menu on smaller screens.  
+
+### Success Page  
+![Success page](assets/images/readme-screenshots/tablet-sucess.jpg)  
+- Confirmation of successful form submission.  
+
+### 404 Page  
+![404 page](assets/images/readme-screenshots/404-page.jpg)  
+- Custom error page with navigation back to site. 
+
+
 - ### Title & Hero Image
   - The title for the homepage floats above the hero image and scrolls with the page. The image used is a classic boardgame which is eyecatching and instantly recognisable. When the upcoming page is being viewed on tablet size and above, the title remains in place while the content scrolls next to it.
 
