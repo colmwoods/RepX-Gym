@@ -38,6 +38,11 @@
     width: 100%;
 }
 
+/* ---------------- All Sections But Hero ---------------- */
+section:not(.hero-section) {
+    min-height: 100vh;
+}
+
 /* ---------------- Hero Section ---------------- */
 .hero-section {
     position: relative;
