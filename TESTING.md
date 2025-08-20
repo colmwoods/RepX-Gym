@@ -65,28 +65,28 @@ This document outlines the testing carried out for the **RepX Gym** website to e
 ### Equipment Section
 - Each card loads image and description.  
 - Responsive two-column layout collapses into one-column on mobile.
-[Equipment Page](assets/images/testing/equipment-mobile.jpg)
+![Equipment Page](assets/images/testing/equipment-mobile.jpg)
 
 ### Contact Form
 - Required fields (`First Name`, `Last Name`, `Email`, `Membership Type`, `Eircode`) prevent empty submission.  
 - “Agree to Terms and Conditions” checkbox must be ticked.  
 - **Bug Found:** Originally the form used an `<a>` tag instead of a `<button>`, bypassing validation.  
   - **Fix:** Replaced with `<button type="submit">Submit form</button>`. Validation now works.
-[Contact Form](assets/images/testing/contact-form.jpg)
+![Contact Form](assets/images/testing/contact-form.jpg)
 
 
 ### Success Page
 - Displays confirmation message after submission.
-[Sucess Page](assets/images/testing/sucess-tablet.jpg)
+![Sucess Page](assets/images/testing/sucess-tablet.jpg)
 
 ### 404 Page
 - Custom error page loads with navigation back to Home.
-[404 Page](assets/images/testing/404-page.jpg)
+![404 Page](assets/images/testing/404-page.jpg)
 
 ### Footer
 - Contact details and opening times visible across all screen sizes.  
 - Social media icons open in new tabs.
-[Footer Page](assets/images/testing/footer.jpg)
+![Footer Page](assets/images/testing/footer.jpg)
 
 ---
 
