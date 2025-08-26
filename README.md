@@ -1,4 +1,4 @@
-# Board Game & Film Club
+# RepX Gym
 
 RepX Gym is a modern, responsive fitness website designed to showcase membership options, gym equipment, contact information, and opening hours. It provides a clean, professional user experience that makes it easy for potential members to learn about the gym and join.  
 
